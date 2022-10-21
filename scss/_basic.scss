@@ -1,0 +1,76 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+.visual_hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    border: 0;
+    margin: -1px;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #242a33;
+    border-radius: 20px;
+    transition: background-color 1s;
+    &:hover {
+        background-color: #70707027;
+    }
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #4f555c; 
+    border-radius: 20px;
+  }
+  
+  /* Handle on hover */
+//   ::-webkit-scrollbar-track:hover {
+//     background-color: #363d46;
+//   }
+
+.main-side {
+    background-image: linear-gradient(to top,
+                      transparent 0% 0%,
+                      rgba(0, 0, 0, 0.247) 0% 100%),
+                      url("/img/wp2039796-telegram-wallpapers.png");
+    background-size: cover;
+    
+}

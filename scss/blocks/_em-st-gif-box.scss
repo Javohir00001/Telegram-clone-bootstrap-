@@ -1,0 +1,150 @@
+.emodji_stickers {
+    background-color: $main-color;
+}
+.emodji_stickers .list-group {
+    border-bottom: 1px solid #0e1621;
+}
+.emodji_stickers .list-group-item {
+    background-color: transparent;
+}
+.emoji-sticers {
+    display: block;
+    font-family: sans-serif;
+    font-size: 12px;
+    padding: 17px 0 !important;
+    border-radius: 0;
+    position: relative;
+    border: none;
+    color: #a1a1a1;
+    box-shadow: none;
+    overflow: hidden;
+
+    // &::after {
+    //     content: "";
+    //     width: 0;
+    //     height: 0;
+    //     position: absolute;
+    //     background-color: rgba(63, 63, 63, 0.26);
+    //     left: 50%;
+    //     top: 50%;
+    //     transform: translate(-50%, -50%);
+    //     transition: all 1s;
+    //     border-radius: 50%;
+    // }
+    // &::before {
+    //     content: "";
+    //     width: 0;
+    //     height: 0;
+    //     position: absolute;
+    //     background-color: #4a81bc;
+    //     left: 50%;
+    //     bottom: 0;
+    //     transform: translateX(-50%);
+    //     transition: all 0.5s;
+    // }
+    // &:hover {
+    //     color: #a1a1a1;
+    // }
+    // &:focus {
+    //     box-shadow: none;
+    //     color: #4a81bc;
+    //     &::before {
+    //         width: 100%;
+    //         height: 100%;
+    //     }
+    // }
+    // &:active {
+    //     box-shadow: none !important;
+    // }
+}
+.emodji_stickers .list-group {
+    border-radius: 0;
+}
+.emodji_stickers .list-group-item-action,
+.emodji_stickers .list-group-item {
+    background-color: transparent;
+    border-bottom: 2px solid transparent !important;
+}
+.emodji_stickers .list-group-item-action:hover {
+    z-index: 1;
+    color: #a1a1a1 !important;
+    text-decoration: none;
+    background-color: transparent !important;
+}
+.emodji_stickers .list-group-item.active {
+    z-index: 2;
+    color: #4a81bc;
+    background-color: transparent !important;
+    border-bottom-color: #4a81bc !important;
+    margin-top: 0;
+    &:hover {
+        color: #4a81bc !important;
+    }
+}
+.emodji_stickers-boxs {
+    height: calc(100% - 56px);
+    .tab-pane {
+        height: inherit;
+    }
+}
+.emodji_stickers-box {
+    height: calc(100% - 38px);
+}
+.emodji_stickers-nav .nav-link {
+    padding: 5px 5px;
+    border-radius: 0;
+    flex-grow: 1;
+}
+.emodji_stickers-nav .nav-link.active{
+    padding: 5px 5px;
+    background-color: transparent;
+    border-radius: 0;
+    color: #4990cf !important;
+}
+.time .col-2 div {
+    background-color: greenyellow;
+}
+.smile .col-2 div {
+    background-color: rgb(172, 132, 0);
+}
+.cat .col-2 div {
+    background-color: rgb(10, 253, 253);
+}
+.apple .col-2 div {
+    background-color: rgb(0, 60, 255);
+}
+.ball .col-2 div {
+    background-color: rgb(225, 0, 255);
+}
+.car .col-2 div {
+    background-color: rgb(223, 57, 57);
+}
+.light .col-2 div {
+    background-color: rgb(11, 102, 23);
+}
+.heart .col-2 div {
+    background-color: rgb(232, 255, 23);
+}
+.defaul_stickers > div {
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover {
+        background-color: #2133429f;
+    }
+}
+.stickers-nav input[type=search] {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    padding: 5px 5px;
+    font-size: 12px;
+    outline: none;
+    color: #eaeaea;
+}
+.stickers-nav .hidden-input {
+    display: none;
+}
+.stickers-nav input[type=checkbox]:checked + form {
+    display: block;
+    // background-color: red;
+}
